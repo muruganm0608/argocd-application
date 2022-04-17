@@ -4,7 +4,7 @@ metadata:
   labels:
     app: bgd
   name: bgd
-  namespace: default
+  namespace: argocd
 spec:
   type: NodePort
   ports:
