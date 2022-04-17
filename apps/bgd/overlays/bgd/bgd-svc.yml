@@ -4,6 +4,7 @@ metadata:
   labels:
     app: bgd
   name: bgd
+  namespace: default
 spec:
   type: NodePort
   ports:

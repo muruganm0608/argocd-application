@@ -4,6 +4,7 @@ metadata:
   labels:
     app: bgd
   name: bgd
+  namespace: default
 spec:
   replicas: 1
   selector:
