@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: bgd-app
+  name: bgd
   namespace: argocd
 spec:
   destination:
@@ -9,7 +9,7 @@ spec:
     server: https://kubernetes.default.svc 
   project: default 
   source: 
-    path: .
+    path: apps/bgd/overlays/bgd
     repoURL: https://github.com/muruganm0608/argocd-application.git
     targetRevision: HEAD
   syncPolicy: 
