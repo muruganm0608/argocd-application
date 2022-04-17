@@ -4,7 +4,6 @@ metadata:
   labels:
     app: bgd
   name: bgd
-  namespace: argocd
 spec:
   replicas: 1
   selector:
